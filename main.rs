@@ -10,6 +10,9 @@ fn main()
 
 fn iterate()
 {
+    /*
+     * Example block comment
+     */
     let items = vec![1,2,3,4,5];
     for i in items.iter() {
         println!("{}", i);
