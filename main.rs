@@ -4,7 +4,15 @@
 fn main()
 {
     // This is a line comment.
-    print!("Hello, world!");
+    println!("Hello, world!");
+    iterate();
 }
 
+fn iterate()
+{
+    let items = vec![1,2,3,4,5];
+    for i in items.iter() {
+        println!("{}", i);
+    }
+}
 
